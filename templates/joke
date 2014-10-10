@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ title }} | Metalsmith Page</title>
+    <script type="text/javascript"></script>
+</head>
+<body>
+    <div class="main-wrapper">
+        {{ contents | raw }}
+    </div>
+
+</body>
+</html>
